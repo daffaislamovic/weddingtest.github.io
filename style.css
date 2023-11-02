@@ -200,4 +200,8 @@ body {
         display: flex;
         justify-content: center;
     }
+
+    .mynavbar .nav-link {
+        font-size: 1rem;
+        text-align: center;
 }
