@@ -33,30 +33,27 @@
         </main>
     </section>
 
-    <nav class="navbar navbar-expand-md bg-trasparent sticky-top mynavbar">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container">
         <a class="navbar-brand" href="#">D&D</a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#info">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Story</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gifts</a>
-            </li>
-          </ul>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">D&D</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -123,7 +120,7 @@
                     </div>
                     <div class="col-md-6">
                       <i class="bi bi-calendar3 d-block"></i>
-                      <span>Senin,18 November 2024</span>
+                      <span>Senin, 18 November 2024</span>
                     </div>
                   </div>
                 </div>
@@ -131,6 +128,94 @@
                   Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
                 </div>
               </div>
+            </div>
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">Resepsi</div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>12.00-selesai</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar3 d-block"></i>
+                      <span>Selasa, 19 November 2024</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  Saat acara diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="story">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 cpl-10 text-center">
+              <span>Bagaiman Cinta Kami Bersemi</span>
+              <h2>Cerita Kami</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam, sequi quia quas aliquam quo!</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-image" style="background-image: url(img/pertama-bertemu.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Pertama Bertemu</h3>
+                      <span>29 November 2018</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero deserunt beatae necessitatibus repellendus doloribus!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image" style="background-image: url(img/awal-pacaran.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Awal Pacaran</h3>
+                      <span>14 February 2019</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero deserunt beatae necessitatibus repellendus doloribus!</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-image" style="background-image: url(img/awal-ldr.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Awal LDR</h3>
+                      <span>11 April 2019</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero deserunt beatae necessitatibus repellendus doloribus!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image" style="background-image: url(img/lamaran.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Lamaran</h3>
+                      <span>15 Juni 2024</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero deserunt beatae necessitatibus repellendus doloribus!</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+              </ul>
             </div>
           </div>
         </div>
@@ -152,6 +237,19 @@
                 seconds: { singular: 'detik', plural: 'detik' }
             },
     });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      })
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      })
     </script>
   </body>
 
