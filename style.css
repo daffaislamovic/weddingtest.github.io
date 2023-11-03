@@ -360,15 +360,15 @@ right: auto;
     }
 
     .timeline li .timeline-panel {
-        width: 70%;
+        width: 60%;
         transform: translateX(-20px);
     }
 
     .timeline li .timeline-panel::before {
-        top: 30px;
+        top: 25px;
     }
 
     .timeline li .timeline-panel::before {
-        top: 31px;
+        top: 26px;
     }
 }
