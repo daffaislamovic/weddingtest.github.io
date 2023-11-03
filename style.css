@@ -292,7 +292,7 @@ right: auto;
     }
 
     .timeline li .timeline-panel {
-        width: calc((100% - 200%));
+        width: calc((100% - 200px));
         float: right;
     }
 
